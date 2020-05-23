@@ -1,0 +1,77 @@
+body {
+  font-family: "Inter";
+  font-size: 32px;
+}
+
+strong {
+  font-size: 25px;
+}
+
+span {
+  font-size: 25px;
+  color: #807c7b;
+}
+
+.images {
+  background-repeat: no-repeat;
+}
+
+.content {
+  display: inline-block;
+  width: 1440px;
+  height: 768px;
+}
+.content-text {
+  position: absolute;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  top: 210px;
+  left: 184px;
+}
+.imgPhoto {
+  position: absolute;
+  top: 80px;
+  z-index: 1;
+  left: 765px;
+  box-shadow: 2px 4px 14px#807c7b;
+  content: url(../images/image-tanya.jpg);
+}
+.imgScrool {
+  position: absolute;
+  top: 600px;
+  left: 800px;
+  width: 100px;
+  height: 46px;
+  z-index: 3;
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 1px 7px 26px #807c7b;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.imgPattern {
+  position: absolute;
+  top: 18px;
+  left: 700px;
+  z-index: -1;
+}
+.imgCurve {
+  position: relative;
+  top: 620px;
+}
+.imgQuotes {
+  position: relative;
+  top: 5px;
+  left: 273px;
+}
+
+.attribution {
+  font-size: 15px;
+  text-align: right;
+}

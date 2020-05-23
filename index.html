@@ -1,38 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
 
-  “ I’ve been interested in coding for a while but never taken the jump, until now. 
-  I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
-  excited about the future. ”
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="./styles/styles.css" />
 
-  Tanya Sinclair
-  UX Engineer
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <p class="content-text" id="content-text">
+        “ I’ve been interested in coding for a while <br />but never taken the
+        jump, until now. I<br />couldn’t recommend this course enough.<br />I’m
+        now in the job of my dreams and so<br />excited about the future. ”<br />
+        <br /><strong>Tanya Sinclair</strong> <span>UX Engineer</span>
+      </p>
+      <div>
+        <img class="imgPhoto" id="imgPhoto" alt="" />
+      </div>
+      <div class="imgScrool">
+        <div id="nex" onclick="changeImagenPrev()">
+          <img id="imagenChange" src="./images/icon-prev.svg" alt="" />
+        </div>
+        <div onclick="changeImagenNext()">
+          <img id="prev" src="./images/icon-next.svg" alt="" />
+        </div>
+      </div>
+      <div class="imgPattern">
+        <img src="./images/pattern-bg.svg" alt="" />
+      </div>
+      <div class="imgCurve">
+        <img src="./images/pattern-curve.svg" alt="" />
+      </div>
+      <div class="imgQuotes">
+        <img src="./images/pattern-quotes.svg" alt="" />
+      </div>
+    </div>
 
-  “ If you want to lay the best foundation possible I’d recommend taking this course. 
-  The depth the instructors go into is incredible. I now feel so confident about 
-  starting up as a professional developer. ”
+    <!---Second div---->
+    <!--  <div>
+      <p>
+        “ If you want to lay the best foundation possible I’d recommend taking
+        this course. The depth the instructors go into is incredible. I now feel
+        so confident about starting up as a professional developer. ” John
+        Tarkpor Junior Front-end Developer
+      </p>
+      <div><img src="./images/image-john.jpg" alt="" /></div>
+      
+     </div>-->
 
-  John Tarkpor
-  Junior Front-end Developer
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Jimmy Osma</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
